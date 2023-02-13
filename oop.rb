@@ -80,8 +80,12 @@ class Hobbit
         @name = name
         @disposition = disposition
         @age = 0
-        @is_adult = false
-        @is_old = false
+        # @is_adult = false
+        # @is_old = false
+        def celebrate_birthday
+            @age = @age + 1
+         end
+         
         if @age >= 101
             @is_old = true
         elsif @age >= 33
@@ -95,9 +99,7 @@ class Hobbit
             @has_ring = false
         end
     end
-    def celebrate_birthday
-        puts @age = @age + 1
-    end
+    
 end 
 
 hobbit1 = Hobbit.new("Frodo", "Lawful Good")
