@@ -80,8 +80,8 @@ class Hobbit
         @name = name
         @disposition = disposition
         @age = 0
-        # @is_adult = false
-        # @is_old = false
+        @is_adult = false
+        @is_old = false
         def celebrate_birthday
             @age = @age + 1
          end
