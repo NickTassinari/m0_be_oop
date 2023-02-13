@@ -85,14 +85,16 @@ class Hobbit
         def celebrate_birthday
             @age = @age + 1
          end
-         
-        if @age >= 101
+        def is_old(age) 
+            if @age >= 101
             @is_old = true
-        elsif @age >= 33
+            elsif @age >= 33
             @is_adult = true
-        else 
+            else 
             @is_adult = false
         end
+    end
+
         if @name = "Frodo"
             @has_ring = true
         else 
@@ -148,5 +150,6 @@ hobbit1.celebrate_birthday
 hobbit1.celebrate_birthday
 hobbit1.celebrate_birthday
 
+hobbit1.is_old(@age)
 p hobbit1
 
