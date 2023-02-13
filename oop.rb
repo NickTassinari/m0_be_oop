@@ -80,6 +80,8 @@ class Hobbit
         @name = name
         @disposition = disposition
         @age = 0
+        @is_adult = false
+        @is_old = false
         if @age >= 101
             @is_old = true
         elsif @age >= 33
@@ -94,11 +96,55 @@ class Hobbit
         end
     end
     def celebrate_birthday
-        puts @age = @age + 33
+        puts @age = @age + 1
     end
 end 
 
 hobbit1 = Hobbit.new("Frodo", "Lawful Good")
 hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+
 p hobbit1
 
